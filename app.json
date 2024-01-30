@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Cheaper",
+    "slug": "hikaku",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/apicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/loding.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FBB03A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.tas321.hikaku"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4ee50c91-19b3-4971-ae34-80704b1f97d6"
+      }
+    }
+  }
+}
